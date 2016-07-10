@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/mocktracer"
+	"github.com/life360/opentracing-go"
+	"github.com/life360/opentracing-go/ext"
+	"github.com/life360/opentracing-go/mocktracer"
 )
 
 func assertEqual(t *testing.T, expected, actual interface{}) {

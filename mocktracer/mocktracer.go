@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/opentracing/opentracing-go"
+	"github.com/life360/opentracing-go"
 )
 
 // New returns a MockTracer opentracing.Tracer implementation that's intended

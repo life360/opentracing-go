@@ -1,4 +1,4 @@
-[![Gitter chat](http://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/opentracing/public) [![Build Status](https://travis-ci.org/opentracing/opentracing-go.svg?branch=master)](https://travis-ci.org/opentracing/opentracing-go) [![GoDoc](https://godoc.org/github.com/opentracing/opentracing-go?status.svg)](http://godoc.org/github.com/opentracing/opentracing-go)
+[![Gitter chat](http://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/opentracing/public) [![Build Status](https://travis-ci.org/opentracing/opentracing-go.svg?branch=master)](https://travis-ci.org/opentracing/opentracing-go) [![GoDoc](https://godoc.org/github.com/life360/opentracing-go?status.svg)](http://godoc.org/github.com/life360/opentracing-go)
 
 # OpenTracing API for Go
 
@@ -22,7 +22,7 @@ demonstrating some important use cases.
 The simplest starting point is `./default_tracer.go`. As early as possible, call
 
 ```go
-    import "github.com/opentracing/opentracing-go"
+    import "github.com/life360/opentracing-go"
     import ".../some_tracing_impl"
 
     func main() {
@@ -139,7 +139,7 @@ synchronization.
 
 ## API pointers for those implementing a tracing system
 
-Tracing system implementors may be able to reuse or copy-paste-modify the `basictracer` package, found [here](https://github.com/opentracing/basictracer-go). In particular, see `basictracer.New(...)`.
+Tracing system implementors may be able to reuse or copy-paste-modify the `basictracer` package, found [here](https://github.com/life360/basictracer-go). In particular, see `basictracer.New(...)`.
 
 ## API compatibility
 
